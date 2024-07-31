@@ -1,0 +1,82 @@
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:32px;
+    text-decoration: none;
+    font-size: "13";
+    width: 120px;
+    padding-bottom: 20px;
+    height: 30px;
+
+}
+li{
+
+    float: left;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+li a:hover:not(.navbar){
+    background-color: cornflowerblue;
+}
+.navbar{
+    background-color: grey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color:darkblue;
+}
+.a{
+    background-color:darkblue;
+    float: left;
+    height: 70px;
+    width: 300px;
+    margin: 8px 8px 8px 10px;
+    background: fixed;
+}
+.foster h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    background: rgba(168, 169, 184, 0.6);
+    padding:100px 100px 220px  100px;
+}
+.foster{
+    background-image: url(./images/about.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.c{
+    text-align: center;
+    padding-top: 20px;
+    color: darkblue;
+}
+.i{
+    padding-left: 100px;
+    padding-bottom: 120px;
+    font-size: 25px;
+}
+.c{
+    text-align: center;
+    padding-top: 20px;
+    color: darkblue;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px 100px 10px 200px;
+    padding-top: 10px;
+}
+#pic{
+    height: 400px;
+    width: 400px;
+}

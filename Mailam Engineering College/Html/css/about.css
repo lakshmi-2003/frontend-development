@@ -1,0 +1,76 @@
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:32px;
+    text-decoration: none;
+    font-size: "13";
+    width: 120px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+li{
+
+    float: left;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+li a:hover:not(.navbar){
+    background-color: cornflowerblue;
+}
+.navbar{
+    background-color: grey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color:darkblue;
+}
+.a{
+    background-color:darkblue;
+    float: left;
+    height: 70px;
+    width: 300px;
+    margin: 8px 8px 8px 10px;
+    background: fixed;
+}
+.foster h1{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color:blueviolet;
+    letter-spacing: 4px;
+    padding-top: 100px;
+    background: rgba(168, 169, 184, 0.6);
+    padding:100px 100px 220px  100px;
+}
+.foster{
+    background-image: url(./images/about.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.about{
+    margin-left: 50px;
+}
+h1{
+    color: blueviolet;
+}
+p{
+    font-size: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
